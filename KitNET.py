@@ -76,7 +76,7 @@ class KitNET:
             ## OutputLayer
             self.outputLayer.train(S_l1)
             if self.n_trained == self.AD_grace_period+self.FM_grace_period:
-                print("Feature-Mapper: execute-mode, Anomaly-Detector: exeute-mode")
+                print("Feature-Mapper: execute-mode, Anomaly-Detector: execute-mode")
         self.n_trained += 1
 
     #force execute KitNET on x
